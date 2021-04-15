@@ -98,5 +98,49 @@ GPIO_PinState GPIO::read(){
 
 }
 
+void GPIO::set(){
 
+	if( gpioPort == NULL ){
 
+		return;
+
+	}
+
+	HAL_GPIO_WritePin( gpioPort, gpioPin, GPIO_PIN_SET );
+
+}
+
+void GPIO::reset(){
+
+	if( gpioPort == NULL ){
+
+		return;
+
+	}
+
+	HAL_GPIO_WritePin( gpioPort, gpioPin, GPIO_PIN_RESET );
+
+}
+
+void GPIO::on(){
+
+		if( gpioPort == NULL ){
+
+			return;
+
+		}
+
+		HAL_GPIO_WritePin( gpioPort, gpioPin, GPIO_PIN_SET );
+
+}
+void GPIO::off(){
+
+		if( gpioPort == NULL ){
+
+			return;
+
+		}
+
+		HAL_GPIO_WritePin( gpioPort, gpioPin, GPIO_PIN_RESET );	
+
+}

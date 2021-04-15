@@ -28,6 +28,12 @@ public:
 	void write( int PinState );
 	void write( bool PinState );
 
+	void set();
+	void reset();
+
+	void on();
+	void off();
+
 	void toggle();
 
 	GPIO_PinState read();
