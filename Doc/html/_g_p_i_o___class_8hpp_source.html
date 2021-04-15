@@ -138,22 +138,32 @@ $(document).ready(function(){initNavTree('_g_p_i_o___class_8hpp_source.html','')
 <div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_g_p_i_o.html#aaf4306104809db29e7f6081aaf704e21">write</a>( <span class="keywordtype">int</span> PinState );</div>
 <div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_g_p_i_o.html#aaf4306104809db29e7f6081aaf704e21">write</a>( <span class="keywordtype">bool</span> PinState );</div>
 <div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160; </div>
-<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_g_p_i_o.html#ad36f8821672043ef872c8e275496ff17">toggle</a>();</div>
-<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160; </div>
-<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;    GPIO_PinState <a class="code" href="class_g_p_i_o.html#a7170e2add549a25f6af60dfc5b2e1af6">read</a>();</div>
-<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160; </div>
-<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;<span class="keyword">private</span>:</div>
-<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;     GPIO_TypeDef* gpioPort = NULL;</div>
-<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;     uint16_t gpioPin = 0;</div>
-<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;};</div>
-<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160; </div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_g_p_i_o.html#a73b95aed006181f6dc4fad393ba79d18">set</a>();</div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_g_p_i_o.html#ac07b8ccefa9a990b153da9d7ebb7d7de">reset</a>();</div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160; </div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_g_p_i_o.html#acd6dbd08da1eeec7ed6cb1f36f2f3fdd">on</a>();</div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_g_p_i_o.html#aed3aa8b041bd6ae52c50ce6be9fcc3dd">off</a>();</div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160; </div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_g_p_i_o.html#ad36f8821672043ef872c8e275496ff17">toggle</a>();</div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160; </div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;    GPIO_PinState <a class="code" href="class_g_p_i_o.html#a7170e2add549a25f6af60dfc5b2e1af6">read</a>();</div>
 <div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160; </div>
-<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160; </div>
-<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;<span class="preprocessor">#endif </span><span class="comment">/* STM32_CLASS_FACTORY_GPIO_GPIO_CLASS_HPP_ */</span><span class="preprocessor"></span></div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;<span class="keyword">private</span>:</div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;     GPIO_TypeDef* gpioPort = NULL;</div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;     uint16_t gpioPin = 0;</div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;};</div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160; </div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160; </div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160; </div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;<span class="preprocessor">#endif </span><span class="comment">/* STM32_CLASS_FACTORY_GPIO_GPIO_CLASS_HPP_ */</span><span class="preprocessor"></span></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
+<div class="ttc" id="aclass_g_p_i_o_html_acd6dbd08da1eeec7ed6cb1f36f2f3fdd"><div class="ttname"><a href="class_g_p_i_o.html#acd6dbd08da1eeec7ed6cb1f36f2f3fdd">GPIO::on</a></div><div class="ttdeci">void on()</div><div class="ttdef"><b>Definition:</b> GPIO_Class.cpp:125</div></div>
 <div class="ttc" id="aclass_g_p_i_o_html_ad36f8821672043ef872c8e275496ff17"><div class="ttname"><a href="class_g_p_i_o.html#ad36f8821672043ef872c8e275496ff17">GPIO::toggle</a></div><div class="ttdeci">void toggle()</div><div class="ttdef"><b>Definition:</b> GPIO_Class.cpp:77</div></div>
+<div class="ttc" id="aclass_g_p_i_o_html_aed3aa8b041bd6ae52c50ce6be9fcc3dd"><div class="ttname"><a href="class_g_p_i_o.html#aed3aa8b041bd6ae52c50ce6be9fcc3dd">GPIO::off</a></div><div class="ttdeci">void off()</div><div class="ttdef"><b>Definition:</b> GPIO_Class.cpp:136</div></div>
 <div class="ttc" id="aclass_g_p_i_o_html_a7170e2add549a25f6af60dfc5b2e1af6"><div class="ttname"><a href="class_g_p_i_o.html#a7170e2add549a25f6af60dfc5b2e1af6">GPIO::read</a></div><div class="ttdeci">GPIO_PinState read()</div><div class="ttdef"><b>Definition:</b> GPIO_Class.cpp:89</div></div>
+<div class="ttc" id="aclass_g_p_i_o_html_ac07b8ccefa9a990b153da9d7ebb7d7de"><div class="ttname"><a href="class_g_p_i_o.html#ac07b8ccefa9a990b153da9d7ebb7d7de">GPIO::reset</a></div><div class="ttdeci">void reset()</div><div class="ttdef"><b>Definition:</b> GPIO_Class.cpp:113</div></div>
+<div class="ttc" id="aclass_g_p_i_o_html_a73b95aed006181f6dc4fad393ba79d18"><div class="ttname"><a href="class_g_p_i_o.html#a73b95aed006181f6dc4fad393ba79d18">GPIO::set</a></div><div class="ttdeci">void set()</div><div class="ttdef"><b>Definition:</b> GPIO_Class.cpp:101</div></div>
 <div class="ttc" id="aclass_g_p_i_o_html_aaf4306104809db29e7f6081aaf704e21"><div class="ttname"><a href="class_g_p_i_o.html#aaf4306104809db29e7f6081aaf704e21">GPIO::write</a></div><div class="ttdeci">void write(GPIO_PinState PinState)</div><div class="ttdef"><b>Definition:</b> GPIO_Class.cpp:19</div></div>
 <div class="ttc" id="aclass_g_p_i_o_html"><div class="ttname"><a href="class_g_p_i_o.html">GPIO</a></div><div class="ttdef"><b>Definition:</b> GPIO_Class.hpp:22</div></div>
 <div class="ttc" id="aclass_g_p_i_o_html_af537ee6850837f37ed7b04117e5fd51f"><div class="ttname"><a href="class_g_p_i_o.html#af537ee6850837f37ed7b04117e5fd51f">GPIO::GPIO</a></div><div class="ttdeci">GPIO(GPIO_TypeDef *gpioPort_p, uint16_t gpioPin_p)</div><div class="ttdef"><b>Definition:</b> GPIO_Class.cpp:12</div></div>

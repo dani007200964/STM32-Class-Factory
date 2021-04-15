@@ -1,12 +1,7 @@
 var searchData=
 [
-  ['stm32_20class_20factory_23',['STM32 Class Factory',['../index.html',1,'']]],
-  ['serial_24',['Serial',['../class_serial.html',1,'Serial'],['../class_serial.html#a21987d614f48955d144dae144f269c21',1,'Serial::Serial()']]],
-  ['serial_2ecpp_25',['Serial.cpp',['../_serial_8cpp.html',1,'']]],
-  ['serial_2ehpp_26',['Serial.hpp',['../_serial_8hpp.html',1,'']]],
-  ['serial_5fprintf_5fbuffer_5flength_27',['SERIAL_PRINTF_BUFFER_LENGTH',['../_serial_8hpp.html#aaeec252c41b3be1d1bf272ce43b9b13f',1,'Serial.hpp']]],
-  ['serial_5frecive_5fbuffer_5flength_28',['SERIAL_RECIVE_BUFFER_LENGTH',['../_serial_8hpp.html#a907caeded80a0a97b9ca402e514dc263',1,'Serial.hpp']]],
-  ['slave_29',['SLAVE',['../class_wire.html#ac6ac4d8840799fd5cb86640281380dffa9e84e8e4ea30bf1ba4c6baaf4aa2b60c',1,'Wire']]],
-  ['system_2ecpp_30',['System.cpp',['../_system_8cpp.html',1,'']]],
-  ['system_2ehpp_31',['System.hpp',['../_system_8hpp.html',1,'']]]
+  ['read_22',['read',['../class_g_p_i_o.html#a7170e2add549a25f6af60dfc5b2e1af6',1,'GPIO::read()'],['../class_wire.html#a44ef3883bcee282a6762a8371f64bdbc',1,'Wire::read()'],['../class_serial.html#a7e94ebe6ef13d1e7b903ef35f834933f',1,'Serial::read()']]],
+  ['readbytes_23',['readBytes',['../class_serial.html#a37a86e7bcea78aa593bdb74292664027',1,'Serial']]],
+  ['requestfrom_24',['requestFrom',['../class_wire.html#a0c5217f40cdd0cfa8e2fb0d31916e589',1,'Wire']]],
+  ['reset_25',['reset',['../class_g_p_i_o.html#ac07b8ccefa9a990b153da9d7ebb7d7de',1,'GPIO']]]
 ];
