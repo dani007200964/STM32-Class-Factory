@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['clear_10',['clear',['../class_shellminator.html#a274ba9dece047e5d4b3c23cae6c91317',1,'Shellminator']]],
-  ['cyan_11',['CYAN',['../class_shellminator.html#a306653f230deb8b560058517a95830dcaf20b5605d832c2de91cddc2922eacc36',1,'Shellminator']]]
+  ['dbgprintf_5',['dbgPrintf',['../class_serial.html#ae2a336868d0ea3c64813d6200eac563f',1,'Serial::dbgPrintf(const char *fmt,...)'],['../class_serial.html#a544c975ac43387503f5c98e0e7feb428',1,'Serial::dbgPrintf(char *fmt,...)']]],
+  ['delay_6',['delay',['../_system_8hpp.html#a524f992188578dc1b5b0baed174bec0a',1,'System.hpp']]]
 ];

@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['_5f_5fattribute_5f_5f_50',['__attribute__',['../_shellminator_8cpp.html#a36acd652fa7afe3f090fcb9e18086396',1,'Shellminator.cpp']]]
+  ['available_53',['available',['../class_wire.html#a667a5d107b0d9250fca4ec8c581bc3a1',1,'Wire::available()'],['../class_serial.html#aba5b8bffa61d042653897d06ff1a8e0a',1,'Serial::available()']]]
 ];

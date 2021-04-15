@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['cyan_67',['CYAN',['../class_shellminator.html#a306653f230deb8b560058517a95830dcaf20b5605d832c2de91cddc2922eacc36',1,'Shellminator']]]
+  ['slave_73',['SLAVE',['../class_wire.html#ac6ac4d8840799fd5cb86640281380dffa9e84e8e4ea30bf1ba4c6baaf4aa2b60c',1,'Wire']]]
 ];

@@ -1,7 +1,6 @@
 var annotated_dup =
 [
-    [ "Contributing", "index.html#autotoc_md0", null ],
-    [ "Donation", "index.html#autotoc_md1", null ],
-    [ "License & copyright", "index.html#autotoc_md2", null ],
-    [ "Shellminator", "class_shellminator.html", "class_shellminator" ]
+    [ "GPIO", "class_g_p_i_o.html", "class_g_p_i_o" ],
+    [ "Serial", "class_serial.html", "class_serial" ],
+    [ "Wire", "class_wire.html", "class_wire" ]
 ];

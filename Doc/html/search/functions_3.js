@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['clear_53',['clear',['../class_shellminator.html#a274ba9dece047e5d4b3c23cae6c91317',1,'Shellminator']]]
+  ['endtransmission_57',['endTransmission',['../class_wire.html#a6e5aa4eab50f1ebd8ab71f235e667c37',1,'Wire']]]
 ];

@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['arduino_20installation_86',['Arduino installation',['../arduiono_installation.html',1,'']]]
+  ['stm32_20class_20factory_80',['STM32 Class Factory',['../index.html',1,'']]]
 ];

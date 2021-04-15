@@ -1,5 +1,6 @@
 var searchData=
 [
-  ['magenta_18',['MAGENTA',['../class_shellminator.html#a306653f230deb8b560058517a95830dcad06d3a3c3f700f97ce14f1d1fd6d2630',1,'Shellminator']]],
-  ['main_5fpage_2emd_19',['main_page.md',['../main__page_8md.html',1,'']]]
+  ['main_5fpage_2emd_13',['main_page.md',['../main__page_8md.html',1,'']]],
+  ['master_14',['MASTER',['../class_wire.html#ac6ac4d8840799fd5cb86640281380dffa0e4cefccc90d34ea7538805c4ea5743e',1,'Wire']]],
+  ['millis_15',['millis',['../_system_8hpp.html#ad5b3ec1ce839fa1c4337a7d0312e9749',1,'System.hpp']]]
 ];

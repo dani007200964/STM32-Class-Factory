@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['begin_52',['begin',['../class_shellminator.html#a0262b7bdcb0f22a7f0d17f8ca76fc35d',1,'Shellminator::begin(char *banner_p)'],['../class_shellminator.html#a9321a7c84af143dc5c2540cfd3b02454',1,'Shellminator::begin(const char *banner_p)']]]
+  ['dbgprintf_56',['dbgPrintf',['../class_serial.html#ae2a336868d0ea3c64813d6200eac563f',1,'Serial::dbgPrintf(const char *fmt,...)'],['../class_serial.html#a544c975ac43387503f5c98e0e7feb428',1,'Serial::dbgPrintf(char *fmt,...)']]]
 ];

@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['drawlogo_54',['drawLogo',['../class_shellminator.html#adab0caaef03f45fdba6dde0d5e0f9a6e',1,'Shellminator']]]
+  ['flush_58',['flush',['../class_serial.html#a63b7abf172cad25bfc998b3b1f98310f',1,'Serial']]]
 ];

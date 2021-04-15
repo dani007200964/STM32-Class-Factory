@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['green_13',['GREEN',['../class_shellminator.html#a306653f230deb8b560058517a95830dca2d794b8c9da571b5b4341783369f9b77',1,'Shellminator']]]
+  ['flush_8',['flush',['../class_serial.html#a63b7abf172cad25bfc998b3b1f98310f',1,'Serial']]]
 ];
