@@ -24,6 +24,7 @@ var class_serial =
     [ "print", "class_serial.html#ae14b6b1a43e6c786fd0a876f1ad5ba64", null ],
     [ "printf", "class_serial.html#adb1e4cf04b0c365ef3275fd2c4b65d3d", null ],
     [ "printf", "class_serial.html#a94ec8099a556140f4725eafd5d8b3c04", null ],
+    [ "println", "class_serial.html#a3eb90ce293ad50ec5de6441299230b2a", null ],
     [ "println", "class_serial.html#aba6d7c742c91e2dddc99595b94a47a7b", null ],
     [ "println", "class_serial.html#a40a9b6188f738d4ce32e207bf884a0ba", null ],
     [ "println", "class_serial.html#af62789aba7fcb714e4b85f8cb12195cc", null ],
