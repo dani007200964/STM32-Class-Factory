@@ -483,7 +483,16 @@ size_t Serial::print( double d ){
 
 }
 
-///
+size_t Serial::println(){
+
+	size_t ret;
+
+	ret = print( "\r\n" );
+
+	return ret;
+
+}
+
 size_t Serial::println( char c ){
 
 	size_t ret;
@@ -734,5 +743,3 @@ int Serial::dbgPrintf( const char *fmt, ... ){
 	}
 
 }
-
-

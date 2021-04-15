@@ -185,8 +185,11 @@ public:
   /// @param d the float that you want to transmitt
   size_t print( double d );
 
-
-
+  /// Print a new line sequence
+  ///
+  /// Print a new line sequence.
+  /// The new line consist of a "\r\n" combo.
+  size_t println();
 
 
   /// Transmitt a character with a new line
