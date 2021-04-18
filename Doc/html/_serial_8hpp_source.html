@@ -136,112 +136,112 @@ $(document).ready(function(){initNavTree('_serial_8hpp_source.html',''); initRes
 <div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160; </div>
 <div class="line"><a name="l00037"></a><span class="lineno"><a class="line" href="_serial_8hpp.html#aaeec252c41b3be1d1bf272ce43b9b13f">   37</a></span>&#160;<span class="preprocessor">#define SERIAL_PRINTF_BUFFER_LENGTH 100</span></div>
 <div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160; </div>
-<div class="line"><a name="l00043"></a><span class="lineno"><a class="line" href="class_serial.html">   43</a></span>&#160;<span class="keyword">class </span><a class="code" href="class_serial.html">Serial</a>{</div>
-<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160; </div>
-<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;<span class="keyword">public</span>:</div>
-<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;  <a class="code" href="class_serial.html#a21987d614f48955d144dae144f269c21">Serial</a>( UART_HandleTypeDef *usart_device_p );</div>
-<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160; </div>
-<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;  <span class="keywordtype">void</span> <a class="code" href="class_serial.html#a0a67d1c0452091b26f1eb3d25aaedb68">begin</a>( uint32_t baudrate_p );</div>
-<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160; </div>
-<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;  <span class="keywordtype">int</span> <a class="code" href="class_serial.html#aba5b8bffa61d042653897d06ff1a8e0a">available</a>();</div>
-<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160; </div>
-<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;  <span class="keywordtype">int</span> <a class="code" href="class_serial.html#a7e94ebe6ef13d1e7b903ef35f834933f">read</a>();</div>
-<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160; </div>
-<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;  <span class="keywordtype">int</span> <a class="code" href="class_serial.html#a19b2847dba85e0cd113a2f05ea9cf67e">peek</a>();</div>
+<div class="line"><a name="l00063"></a><span class="lineno"><a class="line" href="class_serial.html">   63</a></span>&#160;<span class="keyword">class </span><a class="code" href="class_serial.html">Serial</a>{</div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160; </div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;<span class="keyword">public</span>:</div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;  <a class="code" href="class_serial.html#a21987d614f48955d144dae144f269c21">Serial</a>( UART_HandleTypeDef *usart_device_p );</div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160; </div>
+<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;  <span class="keywordtype">void</span> <a class="code" href="class_serial.html#a0a67d1c0452091b26f1eb3d25aaedb68">begin</a>( uint32_t baudrate_p );</div>
 <div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160; </div>
-<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;  <span class="keywordtype">size_t</span> <a class="code" href="class_serial.html#a37a86e7bcea78aa593bdb74292664027">readBytes</a>( uint8_t *buff, uint32_t size );</div>
-<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160; </div>
-<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;  <span class="keywordtype">void</span> <a class="code" href="class_serial.html#a63b7abf172cad25bfc998b3b1f98310f">flush</a>();</div>
+<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;  <span class="keywordtype">int</span> <a class="code" href="class_serial.html#aba5b8bffa61d042653897d06ff1a8e0a">available</a>();</div>
+<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160; </div>
+<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;  <span class="keywordtype">int</span> <a class="code" href="class_serial.html#a7e94ebe6ef13d1e7b903ef35f834933f">read</a>();</div>
 <div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160; </div>
-<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;  <span class="keywordtype">size_t</span> <a class="code" href="class_serial.html#a4a633fe6c3658edb433ffb8fed53b6dc">write</a>( uint8_t b );</div>
-<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160; </div>
-<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;  <span class="keywordtype">size_t</span> <a class="code" href="class_serial.html#a670d549d95b810809608248fff6f4c06">print</a>( <span class="keywordtype">char</span> c );</div>
-<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160; </div>
-<div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;  <span class="keywordtype">size_t</span> <a class="code" href="class_serial.html#a670d549d95b810809608248fff6f4c06">print</a>( <span class="keywordtype">char</span> *str );</div>
-<div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160; </div>
-<div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;  <span class="keywordtype">size_t</span> <a class="code" href="class_serial.html#a670d549d95b810809608248fff6f4c06">print</a>( <span class="keyword">const</span> <span class="keywordtype">char</span> *str );</div>
+<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;  <span class="keywordtype">int</span> <a class="code" href="class_serial.html#a19b2847dba85e0cd113a2f05ea9cf67e">peek</a>();</div>
+<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160; </div>
+<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;  <span class="keywordtype">size_t</span> <a class="code" href="class_serial.html#a37a86e7bcea78aa593bdb74292664027">readBytes</a>( uint8_t *buff, uint32_t size );</div>
+<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160; </div>
+<div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;  <span class="keywordtype">void</span> <a class="code" href="class_serial.html#a63b7abf172cad25bfc998b3b1f98310f">flush</a>();</div>
+<div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160; </div>
+<div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;  <span class="keywordtype">size_t</span> <a class="code" href="class_serial.html#a4a633fe6c3658edb433ffb8fed53b6dc">write</a>( uint8_t b );</div>
 <div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160; </div>
-<div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;  <span class="keywordtype">size_t</span> <a class="code" href="class_serial.html#a670d549d95b810809608248fff6f4c06">print</a>( int8_t b );</div>
+<div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;  <span class="keywordtype">size_t</span> <a class="code" href="class_serial.html#a670d549d95b810809608248fff6f4c06">print</a>( <span class="keywordtype">char</span> c );</div>
 <div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160; </div>
-<div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160;  <span class="keywordtype">size_t</span> <a class="code" href="class_serial.html#a670d549d95b810809608248fff6f4c06">print</a>( uint8_t b );</div>
-<div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160; </div>
-<div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160;  <span class="keywordtype">size_t</span> <a class="code" href="class_serial.html#a670d549d95b810809608248fff6f4c06">print</a>( int16_t b );</div>
-<div class="line"><a name="l00133"></a><span class="lineno">  133</span>&#160; </div>
-<div class="line"><a name="l00138"></a><span class="lineno">  138</span>&#160;  <span class="keywordtype">size_t</span> <a class="code" href="class_serial.html#a670d549d95b810809608248fff6f4c06">print</a>( uint16_t b );</div>
-<div class="line"><a name="l00139"></a><span class="lineno">  139</span>&#160; </div>
-<div class="line"><a name="l00144"></a><span class="lineno">  144</span>&#160;  <span class="keywordtype">size_t</span> <a class="code" href="class_serial.html#a670d549d95b810809608248fff6f4c06">print</a>( int32_t b );</div>
-<div class="line"><a name="l00145"></a><span class="lineno">  145</span>&#160; </div>
-<div class="line"><a name="l00150"></a><span class="lineno">  150</span>&#160;  <span class="keywordtype">size_t</span> <a class="code" href="class_serial.html#a670d549d95b810809608248fff6f4c06">print</a>( uint32_t b );</div>
-<div class="line"><a name="l00151"></a><span class="lineno">  151</span>&#160; </div>
-<div class="line"><a name="l00156"></a><span class="lineno">  156</span>&#160;  <span class="keywordtype">size_t</span> <a class="code" href="class_serial.html#a670d549d95b810809608248fff6f4c06">print</a>( int64_t b );</div>
-<div class="line"><a name="l00157"></a><span class="lineno">  157</span>&#160; </div>
-<div class="line"><a name="l00162"></a><span class="lineno">  162</span>&#160;  <span class="keywordtype">size_t</span> <a class="code" href="class_serial.html#a670d549d95b810809608248fff6f4c06">print</a>( uint64_t b );</div>
-<div class="line"><a name="l00163"></a><span class="lineno">  163</span>&#160; </div>
-<div class="line"><a name="l00168"></a><span class="lineno">  168</span>&#160;  <span class="keywordtype">size_t</span> <a class="code" href="class_serial.html#a670d549d95b810809608248fff6f4c06">print</a>( <span class="keywordtype">int</span> i );</div>
-<div class="line"><a name="l00169"></a><span class="lineno">  169</span>&#160; </div>
-<div class="line"><a name="l00174"></a><span class="lineno">  174</span>&#160;  <span class="keywordtype">size_t</span> <a class="code" href="class_serial.html#a670d549d95b810809608248fff6f4c06">print</a>( <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> i );</div>
-<div class="line"><a name="l00175"></a><span class="lineno">  175</span>&#160; </div>
-<div class="line"><a name="l00180"></a><span class="lineno">  180</span>&#160;  <span class="keywordtype">size_t</span> <a class="code" href="class_serial.html#a670d549d95b810809608248fff6f4c06">print</a>( <span class="keywordtype">float</span> f );</div>
-<div class="line"><a name="l00181"></a><span class="lineno">  181</span>&#160; </div>
-<div class="line"><a name="l00186"></a><span class="lineno">  186</span>&#160;  <span class="keywordtype">size_t</span> <a class="code" href="class_serial.html#a670d549d95b810809608248fff6f4c06">print</a>( <span class="keywordtype">double</span> d );</div>
-<div class="line"><a name="l00187"></a><span class="lineno">  187</span>&#160; </div>
-<div class="line"><a name="l00192"></a><span class="lineno">  192</span>&#160;  <span class="keywordtype">size_t</span> <a class="code" href="class_serial.html#a3eb90ce293ad50ec5de6441299230b2a">println</a>();</div>
-<div class="line"><a name="l00193"></a><span class="lineno">  193</span>&#160; </div>
-<div class="line"><a name="l00194"></a><span class="lineno">  194</span>&#160; </div>
-<div class="line"><a name="l00200"></a><span class="lineno">  200</span>&#160;  <span class="keywordtype">size_t</span> <a class="code" href="class_serial.html#a3eb90ce293ad50ec5de6441299230b2a">println</a>( <span class="keywordtype">char</span> c );</div>
+<div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;  <span class="keywordtype">size_t</span> <a class="code" href="class_serial.html#a670d549d95b810809608248fff6f4c06">print</a>( <span class="keywordtype">char</span> *str );</div>
+<div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160; </div>
+<div class="line"><a name="l00134"></a><span class="lineno">  134</span>&#160;  <span class="keywordtype">size_t</span> <a class="code" href="class_serial.html#a670d549d95b810809608248fff6f4c06">print</a>( <span class="keyword">const</span> <span class="keywordtype">char</span> *str );</div>
+<div class="line"><a name="l00135"></a><span class="lineno">  135</span>&#160; </div>
+<div class="line"><a name="l00140"></a><span class="lineno">  140</span>&#160;  <span class="keywordtype">size_t</span> <a class="code" href="class_serial.html#a670d549d95b810809608248fff6f4c06">print</a>( int8_t b );</div>
+<div class="line"><a name="l00141"></a><span class="lineno">  141</span>&#160; </div>
+<div class="line"><a name="l00146"></a><span class="lineno">  146</span>&#160;  <span class="keywordtype">size_t</span> <a class="code" href="class_serial.html#a670d549d95b810809608248fff6f4c06">print</a>( uint8_t b );</div>
+<div class="line"><a name="l00147"></a><span class="lineno">  147</span>&#160; </div>
+<div class="line"><a name="l00152"></a><span class="lineno">  152</span>&#160;  <span class="keywordtype">size_t</span> <a class="code" href="class_serial.html#a670d549d95b810809608248fff6f4c06">print</a>( int16_t b );</div>
+<div class="line"><a name="l00153"></a><span class="lineno">  153</span>&#160; </div>
+<div class="line"><a name="l00158"></a><span class="lineno">  158</span>&#160;  <span class="keywordtype">size_t</span> <a class="code" href="class_serial.html#a670d549d95b810809608248fff6f4c06">print</a>( uint16_t b );</div>
+<div class="line"><a name="l00159"></a><span class="lineno">  159</span>&#160; </div>
+<div class="line"><a name="l00164"></a><span class="lineno">  164</span>&#160;  <span class="keywordtype">size_t</span> <a class="code" href="class_serial.html#a670d549d95b810809608248fff6f4c06">print</a>( int32_t b );</div>
+<div class="line"><a name="l00165"></a><span class="lineno">  165</span>&#160; </div>
+<div class="line"><a name="l00170"></a><span class="lineno">  170</span>&#160;  <span class="keywordtype">size_t</span> <a class="code" href="class_serial.html#a670d549d95b810809608248fff6f4c06">print</a>( uint32_t b );</div>
+<div class="line"><a name="l00171"></a><span class="lineno">  171</span>&#160; </div>
+<div class="line"><a name="l00176"></a><span class="lineno">  176</span>&#160;  <span class="keywordtype">size_t</span> <a class="code" href="class_serial.html#a670d549d95b810809608248fff6f4c06">print</a>( int64_t b );</div>
+<div class="line"><a name="l00177"></a><span class="lineno">  177</span>&#160; </div>
+<div class="line"><a name="l00182"></a><span class="lineno">  182</span>&#160;  <span class="keywordtype">size_t</span> <a class="code" href="class_serial.html#a670d549d95b810809608248fff6f4c06">print</a>( uint64_t b );</div>
+<div class="line"><a name="l00183"></a><span class="lineno">  183</span>&#160; </div>
+<div class="line"><a name="l00188"></a><span class="lineno">  188</span>&#160;  <span class="keywordtype">size_t</span> <a class="code" href="class_serial.html#a670d549d95b810809608248fff6f4c06">print</a>( <span class="keywordtype">int</span> i );</div>
+<div class="line"><a name="l00189"></a><span class="lineno">  189</span>&#160; </div>
+<div class="line"><a name="l00194"></a><span class="lineno">  194</span>&#160;  <span class="keywordtype">size_t</span> <a class="code" href="class_serial.html#a670d549d95b810809608248fff6f4c06">print</a>( <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> i );</div>
+<div class="line"><a name="l00195"></a><span class="lineno">  195</span>&#160; </div>
+<div class="line"><a name="l00200"></a><span class="lineno">  200</span>&#160;  <span class="keywordtype">size_t</span> <a class="code" href="class_serial.html#a670d549d95b810809608248fff6f4c06">print</a>( <span class="keywordtype">float</span> f );</div>
 <div class="line"><a name="l00201"></a><span class="lineno">  201</span>&#160; </div>
-<div class="line"><a name="l00208"></a><span class="lineno">  208</span>&#160;  <span class="keywordtype">size_t</span> <a class="code" href="class_serial.html#a3eb90ce293ad50ec5de6441299230b2a">println</a>( <span class="keywordtype">char</span> *str );</div>
-<div class="line"><a name="l00209"></a><span class="lineno">  209</span>&#160; </div>
-<div class="line"><a name="l00216"></a><span class="lineno">  216</span>&#160;  <span class="keywordtype">size_t</span> <a class="code" href="class_serial.html#a3eb90ce293ad50ec5de6441299230b2a">println</a>( <span class="keyword">const</span> <span class="keywordtype">char</span> *str );</div>
-<div class="line"><a name="l00217"></a><span class="lineno">  217</span>&#160; </div>
-<div class="line"><a name="l00223"></a><span class="lineno">  223</span>&#160;  <span class="keywordtype">size_t</span> <a class="code" href="class_serial.html#a3eb90ce293ad50ec5de6441299230b2a">println</a>( int8_t b );</div>
-<div class="line"><a name="l00224"></a><span class="lineno">  224</span>&#160; </div>
-<div class="line"><a name="l00230"></a><span class="lineno">  230</span>&#160;  <span class="keywordtype">size_t</span> <a class="code" href="class_serial.html#a3eb90ce293ad50ec5de6441299230b2a">println</a>( uint8_t b );</div>
-<div class="line"><a name="l00231"></a><span class="lineno">  231</span>&#160; </div>
-<div class="line"><a name="l00237"></a><span class="lineno">  237</span>&#160;  <span class="keywordtype">size_t</span> <a class="code" href="class_serial.html#a3eb90ce293ad50ec5de6441299230b2a">println</a>( int16_t b );</div>
-<div class="line"><a name="l00238"></a><span class="lineno">  238</span>&#160; </div>
-<div class="line"><a name="l00244"></a><span class="lineno">  244</span>&#160;  <span class="keywordtype">size_t</span> <a class="code" href="class_serial.html#a3eb90ce293ad50ec5de6441299230b2a">println</a>( uint16_t b );</div>
-<div class="line"><a name="l00245"></a><span class="lineno">  245</span>&#160; </div>
-<div class="line"><a name="l00251"></a><span class="lineno">  251</span>&#160;  <span class="keywordtype">size_t</span> <a class="code" href="class_serial.html#a3eb90ce293ad50ec5de6441299230b2a">println</a>( int32_t b );</div>
-<div class="line"><a name="l00252"></a><span class="lineno">  252</span>&#160; </div>
-<div class="line"><a name="l00258"></a><span class="lineno">  258</span>&#160;  <span class="keywordtype">size_t</span> <a class="code" href="class_serial.html#a3eb90ce293ad50ec5de6441299230b2a">println</a>( uint32_t b );</div>
-<div class="line"><a name="l00259"></a><span class="lineno">  259</span>&#160; </div>
-<div class="line"><a name="l00265"></a><span class="lineno">  265</span>&#160;  <span class="keywordtype">size_t</span> <a class="code" href="class_serial.html#a3eb90ce293ad50ec5de6441299230b2a">println</a>( int64_t b );</div>
-<div class="line"><a name="l00266"></a><span class="lineno">  266</span>&#160; </div>
-<div class="line"><a name="l00272"></a><span class="lineno">  272</span>&#160;  <span class="keywordtype">size_t</span> <a class="code" href="class_serial.html#a3eb90ce293ad50ec5de6441299230b2a">println</a>( uint64_t b );</div>
-<div class="line"><a name="l00273"></a><span class="lineno">  273</span>&#160; </div>
-<div class="line"><a name="l00279"></a><span class="lineno">  279</span>&#160;  <span class="keywordtype">size_t</span> <a class="code" href="class_serial.html#a3eb90ce293ad50ec5de6441299230b2a">println</a>( <span class="keywordtype">int</span> i );</div>
-<div class="line"><a name="l00280"></a><span class="lineno">  280</span>&#160; </div>
-<div class="line"><a name="l00286"></a><span class="lineno">  286</span>&#160;  <span class="keywordtype">size_t</span> <a class="code" href="class_serial.html#a3eb90ce293ad50ec5de6441299230b2a">println</a>( <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> i );</div>
-<div class="line"><a name="l00287"></a><span class="lineno">  287</span>&#160; </div>
-<div class="line"><a name="l00293"></a><span class="lineno">  293</span>&#160;  <span class="keywordtype">size_t</span> <a class="code" href="class_serial.html#a3eb90ce293ad50ec5de6441299230b2a">println</a>( <span class="keywordtype">float</span> f );</div>
-<div class="line"><a name="l00294"></a><span class="lineno">  294</span>&#160; </div>
-<div class="line"><a name="l00300"></a><span class="lineno">  300</span>&#160;  <span class="keywordtype">size_t</span> <a class="code" href="class_serial.html#a3eb90ce293ad50ec5de6441299230b2a">println</a>( <span class="keywordtype">double</span> d );</div>
-<div class="line"><a name="l00301"></a><span class="lineno">  301</span>&#160; </div>
-<div class="line"><a name="l00310"></a><span class="lineno">  310</span>&#160;  <span class="keywordtype">int</span> <a class="code" href="class_serial.html#a94ec8099a556140f4725eafd5d8b3c04">printf</a>( <span class="keyword">const</span> <span class="keywordtype">char</span> *fmt, ... );</div>
-<div class="line"><a name="l00311"></a><span class="lineno">  311</span>&#160; </div>
-<div class="line"><a name="l00320"></a><span class="lineno">  320</span>&#160;  <span class="keywordtype">int</span> <a class="code" href="class_serial.html#a94ec8099a556140f4725eafd5d8b3c04">printf</a>( <span class="keywordtype">char</span> *fmt, ... );</div>
+<div class="line"><a name="l00206"></a><span class="lineno">  206</span>&#160;  <span class="keywordtype">size_t</span> <a class="code" href="class_serial.html#a670d549d95b810809608248fff6f4c06">print</a>( <span class="keywordtype">double</span> d );</div>
+<div class="line"><a name="l00207"></a><span class="lineno">  207</span>&#160; </div>
+<div class="line"><a name="l00212"></a><span class="lineno">  212</span>&#160;  <span class="keywordtype">size_t</span> <a class="code" href="class_serial.html#a3eb90ce293ad50ec5de6441299230b2a">println</a>();</div>
+<div class="line"><a name="l00213"></a><span class="lineno">  213</span>&#160; </div>
+<div class="line"><a name="l00214"></a><span class="lineno">  214</span>&#160; </div>
+<div class="line"><a name="l00220"></a><span class="lineno">  220</span>&#160;  <span class="keywordtype">size_t</span> <a class="code" href="class_serial.html#a3eb90ce293ad50ec5de6441299230b2a">println</a>( <span class="keywordtype">char</span> c );</div>
+<div class="line"><a name="l00221"></a><span class="lineno">  221</span>&#160; </div>
+<div class="line"><a name="l00228"></a><span class="lineno">  228</span>&#160;  <span class="keywordtype">size_t</span> <a class="code" href="class_serial.html#a3eb90ce293ad50ec5de6441299230b2a">println</a>( <span class="keywordtype">char</span> *str );</div>
+<div class="line"><a name="l00229"></a><span class="lineno">  229</span>&#160; </div>
+<div class="line"><a name="l00236"></a><span class="lineno">  236</span>&#160;  <span class="keywordtype">size_t</span> <a class="code" href="class_serial.html#a3eb90ce293ad50ec5de6441299230b2a">println</a>( <span class="keyword">const</span> <span class="keywordtype">char</span> *str );</div>
+<div class="line"><a name="l00237"></a><span class="lineno">  237</span>&#160; </div>
+<div class="line"><a name="l00243"></a><span class="lineno">  243</span>&#160;  <span class="keywordtype">size_t</span> <a class="code" href="class_serial.html#a3eb90ce293ad50ec5de6441299230b2a">println</a>( int8_t b );</div>
+<div class="line"><a name="l00244"></a><span class="lineno">  244</span>&#160; </div>
+<div class="line"><a name="l00250"></a><span class="lineno">  250</span>&#160;  <span class="keywordtype">size_t</span> <a class="code" href="class_serial.html#a3eb90ce293ad50ec5de6441299230b2a">println</a>( uint8_t b );</div>
+<div class="line"><a name="l00251"></a><span class="lineno">  251</span>&#160; </div>
+<div class="line"><a name="l00257"></a><span class="lineno">  257</span>&#160;  <span class="keywordtype">size_t</span> <a class="code" href="class_serial.html#a3eb90ce293ad50ec5de6441299230b2a">println</a>( int16_t b );</div>
+<div class="line"><a name="l00258"></a><span class="lineno">  258</span>&#160; </div>
+<div class="line"><a name="l00264"></a><span class="lineno">  264</span>&#160;  <span class="keywordtype">size_t</span> <a class="code" href="class_serial.html#a3eb90ce293ad50ec5de6441299230b2a">println</a>( uint16_t b );</div>
+<div class="line"><a name="l00265"></a><span class="lineno">  265</span>&#160; </div>
+<div class="line"><a name="l00271"></a><span class="lineno">  271</span>&#160;  <span class="keywordtype">size_t</span> <a class="code" href="class_serial.html#a3eb90ce293ad50ec5de6441299230b2a">println</a>( int32_t b );</div>
+<div class="line"><a name="l00272"></a><span class="lineno">  272</span>&#160; </div>
+<div class="line"><a name="l00278"></a><span class="lineno">  278</span>&#160;  <span class="keywordtype">size_t</span> <a class="code" href="class_serial.html#a3eb90ce293ad50ec5de6441299230b2a">println</a>( uint32_t b );</div>
+<div class="line"><a name="l00279"></a><span class="lineno">  279</span>&#160; </div>
+<div class="line"><a name="l00285"></a><span class="lineno">  285</span>&#160;  <span class="keywordtype">size_t</span> <a class="code" href="class_serial.html#a3eb90ce293ad50ec5de6441299230b2a">println</a>( int64_t b );</div>
+<div class="line"><a name="l00286"></a><span class="lineno">  286</span>&#160; </div>
+<div class="line"><a name="l00292"></a><span class="lineno">  292</span>&#160;  <span class="keywordtype">size_t</span> <a class="code" href="class_serial.html#a3eb90ce293ad50ec5de6441299230b2a">println</a>( uint64_t b );</div>
+<div class="line"><a name="l00293"></a><span class="lineno">  293</span>&#160; </div>
+<div class="line"><a name="l00299"></a><span class="lineno">  299</span>&#160;  <span class="keywordtype">size_t</span> <a class="code" href="class_serial.html#a3eb90ce293ad50ec5de6441299230b2a">println</a>( <span class="keywordtype">int</span> i );</div>
+<div class="line"><a name="l00300"></a><span class="lineno">  300</span>&#160; </div>
+<div class="line"><a name="l00306"></a><span class="lineno">  306</span>&#160;  <span class="keywordtype">size_t</span> <a class="code" href="class_serial.html#a3eb90ce293ad50ec5de6441299230b2a">println</a>( <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> i );</div>
+<div class="line"><a name="l00307"></a><span class="lineno">  307</span>&#160; </div>
+<div class="line"><a name="l00313"></a><span class="lineno">  313</span>&#160;  <span class="keywordtype">size_t</span> <a class="code" href="class_serial.html#a3eb90ce293ad50ec5de6441299230b2a">println</a>( <span class="keywordtype">float</span> f );</div>
+<div class="line"><a name="l00314"></a><span class="lineno">  314</span>&#160; </div>
+<div class="line"><a name="l00320"></a><span class="lineno">  320</span>&#160;  <span class="keywordtype">size_t</span> <a class="code" href="class_serial.html#a3eb90ce293ad50ec5de6441299230b2a">println</a>( <span class="keywordtype">double</span> d );</div>
 <div class="line"><a name="l00321"></a><span class="lineno">  321</span>&#160; </div>
-<div class="line"><a name="l00330"></a><span class="lineno">  330</span>&#160;  <span class="keywordtype">int</span> <a class="code" href="class_serial.html#ae2a336868d0ea3c64813d6200eac563f">dbgPrintf</a>( <span class="keyword">const</span> <span class="keywordtype">char</span> *fmt, ... );</div>
+<div class="line"><a name="l00330"></a><span class="lineno">  330</span>&#160;  <span class="keywordtype">int</span> <a class="code" href="class_serial.html#a94ec8099a556140f4725eafd5d8b3c04">printf</a>( <span class="keyword">const</span> <span class="keywordtype">char</span> *fmt, ... );</div>
 <div class="line"><a name="l00331"></a><span class="lineno">  331</span>&#160; </div>
-<div class="line"><a name="l00340"></a><span class="lineno"><a class="line" href="class_serial.html#a544c975ac43387503f5c98e0e7feb428">  340</a></span>&#160;  <span class="keywordtype">int</span> <a class="code" href="class_serial.html#a544c975ac43387503f5c98e0e7feb428">dbgPrintf</a>( <span class="keywordtype">char</span> *fmt, ... );</div>
+<div class="line"><a name="l00340"></a><span class="lineno">  340</span>&#160;  <span class="keywordtype">int</span> <a class="code" href="class_serial.html#a94ec8099a556140f4725eafd5d8b3c04">printf</a>( <span class="keywordtype">char</span> *fmt, ... );</div>
 <div class="line"><a name="l00341"></a><span class="lineno">  341</span>&#160; </div>
-<div class="line"><a name="l00342"></a><span class="lineno">  342</span>&#160; </div>
-<div class="line"><a name="l00343"></a><span class="lineno">  343</span>&#160; </div>
-<div class="line"><a name="l00344"></a><span class="lineno">  344</span>&#160; </div>
-<div class="line"><a name="l00345"></a><span class="lineno">  345</span>&#160; </div>
-<div class="line"><a name="l00346"></a><span class="lineno">  346</span>&#160;<span class="keyword">private</span>:</div>
-<div class="line"><a name="l00348"></a><span class="lineno">  348</span>&#160;  UART_HandleTypeDef *usart_device = NULL;</div>
-<div class="line"><a name="l00349"></a><span class="lineno">  349</span>&#160; </div>
-<div class="line"><a name="l00351"></a><span class="lineno">  351</span>&#160;  uint32_t baudrate = 0;</div>
-<div class="line"><a name="l00352"></a><span class="lineno">  352</span>&#160; </div>
-<div class="line"><a name="l00354"></a><span class="lineno">  354</span>&#160;  uint8_t recive_buffer[ <a class="code" href="_serial_8hpp.html#a907caeded80a0a97b9ca402e514dc263">SERIAL_RECIVE_BUFFER_LENGTH</a> ];</div>
-<div class="line"><a name="l00355"></a><span class="lineno">  355</span>&#160; </div>
-<div class="line"><a name="l00357"></a><span class="lineno">  357</span>&#160;  uint32_t recive_buffer_counter = 0;</div>
-<div class="line"><a name="l00358"></a><span class="lineno">  358</span>&#160;};</div>
-<div class="line"><a name="l00359"></a><span class="lineno">  359</span>&#160; </div>
-<div class="line"><a name="l00360"></a><span class="lineno">  360</span>&#160; </div>
-<div class="line"><a name="l00361"></a><span class="lineno">  361</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00350"></a><span class="lineno">  350</span>&#160;  <span class="keywordtype">int</span> <a class="code" href="class_serial.html#ae2a336868d0ea3c64813d6200eac563f">dbgPrintf</a>( <span class="keyword">const</span> <span class="keywordtype">char</span> *fmt, ... );</div>
+<div class="line"><a name="l00351"></a><span class="lineno">  351</span>&#160; </div>
+<div class="line"><a name="l00360"></a><span class="lineno"><a class="line" href="class_serial.html#a544c975ac43387503f5c98e0e7feb428">  360</a></span>&#160;  <span class="keywordtype">int</span> <a class="code" href="class_serial.html#a544c975ac43387503f5c98e0e7feb428">dbgPrintf</a>( <span class="keywordtype">char</span> *fmt, ... );</div>
+<div class="line"><a name="l00361"></a><span class="lineno">  361</span>&#160; </div>
+<div class="line"><a name="l00362"></a><span class="lineno">  362</span>&#160; </div>
+<div class="line"><a name="l00363"></a><span class="lineno">  363</span>&#160; </div>
+<div class="line"><a name="l00364"></a><span class="lineno">  364</span>&#160; </div>
+<div class="line"><a name="l00365"></a><span class="lineno">  365</span>&#160; </div>
+<div class="line"><a name="l00366"></a><span class="lineno">  366</span>&#160;<span class="keyword">private</span>:</div>
+<div class="line"><a name="l00368"></a><span class="lineno">  368</span>&#160;  UART_HandleTypeDef *usart_device = NULL;</div>
+<div class="line"><a name="l00369"></a><span class="lineno">  369</span>&#160; </div>
+<div class="line"><a name="l00371"></a><span class="lineno">  371</span>&#160;  uint32_t baudrate = 0;</div>
+<div class="line"><a name="l00372"></a><span class="lineno">  372</span>&#160; </div>
+<div class="line"><a name="l00374"></a><span class="lineno">  374</span>&#160;  uint8_t recive_buffer[ <a class="code" href="_serial_8hpp.html#a907caeded80a0a97b9ca402e514dc263">SERIAL_RECIVE_BUFFER_LENGTH</a> ];</div>
+<div class="line"><a name="l00375"></a><span class="lineno">  375</span>&#160; </div>
+<div class="line"><a name="l00377"></a><span class="lineno">  377</span>&#160;  uint32_t recive_buffer_counter = 0;</div>
+<div class="line"><a name="l00378"></a><span class="lineno">  378</span>&#160;};</div>
+<div class="line"><a name="l00379"></a><span class="lineno">  379</span>&#160; </div>
+<div class="line"><a name="l00380"></a><span class="lineno">  380</span>&#160; </div>
+<div class="line"><a name="l00381"></a><span class="lineno">  381</span>&#160;<span class="preprocessor">#endif</span></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <div class="ttc" id="aclass_serial_html_a7e94ebe6ef13d1e7b903ef35f834933f"><div class="ttname"><a href="class_serial.html#a7e94ebe6ef13d1e7b903ef35f834933f">Serial::read</a></div><div class="ttdeci">int read()</div><div class="ttdoc">Read one byte from buffer.</div><div class="ttdef"><b>Definition:</b> Serial.cpp:70</div></div>
@@ -255,7 +255,7 @@ $(document).ready(function(){initNavTree('_serial_8hpp_source.html',''); initRes
 <div class="ttc" id="aclass_serial_html_a4a633fe6c3658edb433ffb8fed53b6dc"><div class="ttname"><a href="class_serial.html#a4a633fe6c3658edb433ffb8fed53b6dc">Serial::write</a></div><div class="ttdeci">size_t write(uint8_t b)</div><div class="ttdoc">Transmitt a byte.</div><div class="ttdef"><b>Definition:</b> Serial.cpp:141</div></div>
 <div class="ttc" id="aclass_serial_html_ae2a336868d0ea3c64813d6200eac563f"><div class="ttname"><a href="class_serial.html#ae2a336868d0ea3c64813d6200eac563f">Serial::dbgPrintf</a></div><div class="ttdeci">int dbgPrintf(const char *fmt,...)</div><div class="ttdoc">Transmit a debug message as a formatted string.</div><div class="ttdef"><b>Definition:</b> Serial.cpp:717</div></div>
 <div class="ttc" id="a_system_8hpp_html"><div class="ttname"><a href="_system_8hpp.html">System.hpp</a></div></div>
-<div class="ttc" id="aclass_serial_html"><div class="ttname"><a href="class_serial.html">Serial</a></div><div class="ttdoc">Serial RS232 Class.</div><div class="ttdef"><b>Definition:</b> Serial.hpp:43</div></div>
+<div class="ttc" id="aclass_serial_html"><div class="ttname"><a href="class_serial.html">Serial</a></div><div class="ttdoc">Serial RS232 Class.</div><div class="ttdef"><b>Definition:</b> Serial.hpp:63</div></div>
 <div class="ttc" id="aclass_serial_html_a670d549d95b810809608248fff6f4c06"><div class="ttname"><a href="class_serial.html#a670d549d95b810809608248fff6f4c06">Serial::print</a></div><div class="ttdeci">size_t print(char c)</div><div class="ttdoc">Transmitt a character.</div><div class="ttdef"><b>Definition:</b> Serial.cpp:158</div></div>
 <div class="ttc" id="aclass_serial_html_a544c975ac43387503f5c98e0e7feb428"><div class="ttname"><a href="class_serial.html#a544c975ac43387503f5c98e0e7feb428">Serial::dbgPrintf</a></div><div class="ttdeci">int dbgPrintf(char *fmt,...)</div><div class="ttdoc">Transmit a debug message as a formatted string.</div></div>
 <div class="ttc" id="aclass_serial_html_aba5b8bffa61d042653897d06ff1a8e0a"><div class="ttname"><a href="class_serial.html#aba5b8bffa61d042653897d06ff1a8e0a">Serial::available</a></div><div class="ttdeci">int available()</div><div class="ttdoc">Returns the number of bytes in the recive buffer.</div><div class="ttdef"><b>Definition:</b> Serial.cpp:44</div></div>

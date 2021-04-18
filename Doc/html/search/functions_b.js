@@ -1,5 +1,7 @@
 var searchData=
 [
-  ['wire_77',['Wire',['../class_wire.html#ad2bf6f328e1b19d5cd1465ef6b7361d3',1,'Wire']]],
-  ['write_78',['write',['../class_g_p_i_o.html#aaf4306104809db29e7f6081aaf704e21',1,'GPIO::write(GPIO_PinState PinState)'],['../class_g_p_i_o.html#a5fb230c416fa8c3d5ca313c2353b4c23',1,'GPIO::write(int PinState)'],['../class_g_p_i_o.html#a31876603e47b8424c3d7a532c9cc1027',1,'GPIO::write(bool PinState)'],['../class_wire.html#a9c0d796d743d7f7685b11a41068c12f4',1,'Wire::write()'],['../class_serial.html#a4a633fe6c3658edb433ffb8fed53b6dc',1,'Serial::write()']]]
+  ['read_80',['read',['../class_c_a_ndalorian.html#a101050dcdcd027ff7569a86fc9b3c7d9',1,'CANdalorian::read()'],['../class_g_p_i_o.html#a7170e2add549a25f6af60dfc5b2e1af6',1,'GPIO::read()'],['../class_wire.html#a44ef3883bcee282a6762a8371f64bdbc',1,'Wire::read()'],['../class_serial.html#a7e94ebe6ef13d1e7b903ef35f834933f',1,'Serial::read()']]],
+  ['readbytes_81',['readBytes',['../class_serial.html#a37a86e7bcea78aa593bdb74292664027',1,'Serial']]],
+  ['requestfrom_82',['requestFrom',['../class_wire.html#a0c5217f40cdd0cfa8e2fb0d31916e589',1,'Wire']]],
+  ['reset_83',['reset',['../class_g_p_i_o.html#ac07b8ccefa9a990b153da9d7ebb7d7de',1,'GPIO']]]
 ];

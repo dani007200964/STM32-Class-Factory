@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['endtransmission_61',['endTransmission',['../class_wire.html#a6e5aa4eab50f1ebd8ab71f235e667c37',1,'Wire']]]
+  ['dbgprintf_68',['dbgPrintf',['../class_serial.html#ae2a336868d0ea3c64813d6200eac563f',1,'Serial::dbgPrintf(const char *fmt,...)'],['../class_serial.html#a544c975ac43387503f5c98e0e7feb428',1,'Serial::dbgPrintf(char *fmt,...)']]]
 ];

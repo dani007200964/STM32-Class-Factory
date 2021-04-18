@@ -19,7 +19,10 @@
 
 #include "stm32f4xx_hal.h"
 
+/// Macro to emulate Arduino delay function
 #define delay( x ) HAL_Delay( x )
+
+/// Macro to emulate Arduino millis function
 #define millis() HAL_GetTick()
 
 #endif /* STM32_CLASS_FACTORY_SYSTEM_SYSTEM_HPP_ */

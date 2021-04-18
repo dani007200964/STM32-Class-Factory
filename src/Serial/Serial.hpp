@@ -40,6 +40,26 @@
 ///
 /// Serial is an RS232 library. This is an Arduino Serial like object, the
 /// functionality is ment to be the same.
+///
+/// Example code:
+/// \code{.cpp}
+///
+/// // Constructor for UART2 peripherial
+/// Serial SerialToPC( &huart2 );
+///
+/// int main(){
+///
+/// // Initialise the object with 115200 baudrate
+/// SerialToPC.begin( 115200 );
+///
+/// // Print message to the port
+/// SerialToPC.println( "Hello PC :)" );
+///
+/// return 0;
+///
+/// }
+///
+/// \endcode
 class Serial{
 
 public:

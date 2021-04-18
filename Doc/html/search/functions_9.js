@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['serial_74',['Serial',['../class_serial.html#a21987d614f48955d144dae144f269c21',1,'Serial']]],
-  ['set_75',['set',['../class_g_p_i_o.html#a73b95aed006181f6dc4fad393ba79d18',1,'GPIO']]]
+  ['off_74',['off',['../class_g_p_i_o.html#aed3aa8b041bd6ae52c50ce6be9fcc3dd',1,'GPIO']]],
+  ['on_75',['on',['../class_g_p_i_o.html#acd6dbd08da1eeec7ed6cb1f36f2f3fdd',1,'GPIO']]]
 ];

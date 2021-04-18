@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['flush_62',['flush',['../class_serial.html#a63b7abf172cad25bfc998b3b1f98310f',1,'Serial']]]
+  ['endtransmission_69',['endTransmission',['../class_wire.html#a6e5aa4eab50f1ebd8ab71f235e667c37',1,'Wire']]]
 ];

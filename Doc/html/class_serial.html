@@ -251,8 +251,22 @@ Public Member Functions</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p><a class="el" href="class_serial.html" title="Serial RS232 Class.">Serial</a> RS232 Class. </p>
-<p><a class="el" href="class_serial.html" title="Serial RS232 Class.">Serial</a> is an RS232 library. This is an Arduino <a class="el" href="class_serial.html" title="Serial RS232 Class.">Serial</a> like object, the functionality is ment to be the same. </p>
-</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<p><a class="el" href="class_serial.html" title="Serial RS232 Class.">Serial</a> is an RS232 library. This is an Arduino <a class="el" href="class_serial.html" title="Serial RS232 Class.">Serial</a> like object, the functionality is ment to be the same.</p>
+<p>Example code: </p><div class="fragment"><div class="line"><span class="comment">// Constructor for UART2 peripherial</span></div>
+<div class="line"><a class="code" href="class_serial.html">Serial</a> SerialToPC( &amp;huart2 );</div>
+<div class="line"> </div>
+<div class="line"><span class="keywordtype">int</span> main(){</div>
+<div class="line"> </div>
+<div class="line"><span class="comment">// Initialise the object with 115200 baudrate</span></div>
+<div class="line">SerialToPC.begin( 115200 );</div>
+<div class="line"> </div>
+<div class="line"><span class="comment">// Print message to the port</span></div>
+<div class="line">SerialToPC.println( <span class="stringliteral">&quot;Hello PC :)&quot;</span> );</div>
+<div class="line"> </div>
+<div class="line"><span class="keywordflow">return</span> 0;</div>
+<div class="line"> </div>
+<div class="line">}</div>
+</div><!-- fragment --> </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a21987d614f48955d144dae144f269c21"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a21987d614f48955d144dae144f269c21">&#9670;&nbsp;</a></span>Serial()</h2>
 
@@ -1399,6 +1413,7 @@ Public Member Functions</h2></td></tr>
 </div>
 </div><!-- contents -->
 </div><!-- doc-content -->
+<div class="ttc" id="aclass_serial_html"><div class="ttname"><a href="class_serial.html">Serial</a></div><div class="ttdoc">Serial RS232 Class.</div><div class="ttdef"><b>Definition:</b> Serial.hpp:63</div></div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>

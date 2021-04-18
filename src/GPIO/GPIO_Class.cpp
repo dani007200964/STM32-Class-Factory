@@ -141,6 +141,6 @@ void GPIO::off(){
 
 		}
 
-		HAL_GPIO_WritePin( gpioPort, gpioPin, GPIO_PIN_RESET );	
+		HAL_GPIO_WritePin( gpioPort, gpioPin, GPIO_PIN_RESET );
 
 }
