@@ -4,6 +4,11 @@ STM32 Class factory is a library that is made to create an object oriented envir
 With this library you can accelerate and simplify the usage of the supported peripherials. A lot of library
 is made to be compatible with Arduino like member functions.
 
+# Doxygen documentation
+
+The project has a Doxygen generated documentation. It can be found in Doc/html/index.html.
+The theme that used with the documentation can be found [here](https://jothepro.github.io/doxygen-awesome-css/)
+
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
