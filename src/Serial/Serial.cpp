@@ -212,7 +212,7 @@ size_t Serial::print( int8_t b ){
 	char outBuff[10];
 	uint32_t dataSize;
 
-	snprintf( outBuff, 10, "%u", (int)b );
+	snprintf( outBuff, 10, "%d", (int)b );
 
 	dataSize = strlen( outBuff );
 
@@ -235,7 +235,7 @@ size_t Serial::print( uint8_t b ){
 	char outBuff[10];
 	uint32_t dataSize;
 
-	snprintf( outBuff, 10, "%d", (int)b );
+	snprintf( outBuff, 10, "%u", (int)b );
 
 	dataSize = strlen( outBuff );
 
@@ -258,7 +258,7 @@ size_t Serial::print( int16_t b ){
 	char outBuff[10];
 	uint32_t dataSize;
 
-	snprintf( outBuff, 10, "%u", (int)b );
+	snprintf( outBuff, 10, "%d", (int)b );
 
 	dataSize = strlen( outBuff );
 
@@ -281,7 +281,7 @@ size_t Serial::print( uint16_t b ){
 	char outBuff[10];
 	uint32_t dataSize;
 
-	snprintf( outBuff, 10, "%d", (int)b );
+	snprintf( outBuff, 10, "%u", (int)b );
 
 	dataSize = strlen( outBuff );
 
@@ -304,7 +304,7 @@ size_t Serial::print( int32_t b ){
 	char outBuff[15];
 	uint32_t dataSize;
 
-	snprintf( outBuff, 15, "%u", (int)b );
+	snprintf( outBuff, 15, "%d", (int)b );
 
 	dataSize = strlen( outBuff );
 
@@ -327,7 +327,7 @@ size_t Serial::print( uint32_t b ){
 	char outBuff[15];
 	uint32_t dataSize;
 
-	snprintf( outBuff, 15, "%d", (int)b );
+	snprintf( outBuff, 15, "%u", (int)b );
 
 	dataSize = strlen( outBuff );
 
@@ -350,7 +350,7 @@ size_t Serial::print( int64_t b ){
 	char outBuff[25];
 	uint32_t dataSize;
 
-	snprintf( outBuff, 25, "%u", (int)b );
+	snprintf( outBuff, 25, "%d", (int)b );
 
 	dataSize = strlen( outBuff );
 
@@ -373,7 +373,7 @@ size_t Serial::print( uint64_t b ){
 	char outBuff[25];
 	uint32_t dataSize;
 
-	snprintf( outBuff, 25, "%d", (int)b );
+	snprintf( outBuff, 25, "%u", (int)b );
 
 	dataSize = strlen( outBuff );
 
